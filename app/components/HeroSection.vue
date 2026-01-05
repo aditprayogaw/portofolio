@@ -15,29 +15,29 @@ const { personalInfo } = usePortfolioData()
                     </div>
 
                     <div>
-                        <h1 class="text-4xl md:text-6xl font-bold text-white mb-2 leading-tight">
-                            I am <span class="text-custom-text">{{ personalInfo.name }}</span>
+                        <h1 class="text-4xl md:text-4xl font-bold text-white mb-2 leading-tight">
+                            My name is <span class="text-custom-text">{{ personalInfo.name }}</span>
                         </h1>
                         <h2 class="text-xl md:text-2xl font-medium text-secondary">
                             {{ personalInfo.role }}
                         </h2>
                     </div>
 
-                    <p class="text-gray-300 text-lg leading-relaxed max-w-lg">
+                    <p class="text-gray-300 text-lg text-justify leading-relaxed max-w-lg">
                         {{ personalInfo.description }}
                     </p>
 
-                    <p class="text-light text-sm leading-relaxed max-w-lg italic">
+                    <p class="text-light text-justify text-sm leading-relaxed max-w-lg italic ">
                         "{{ personalInfo.subDescription }}"
                     </p>
 
                     <div class="flex items-center gap-4 pt-4">
-                        <UButton to="#project" color="primary" size="lg" :ui="{ base: 'rounded-full' }" class="px-8"
+                        <UButton to="#project" color="neutral" size="lg" :ui="{ base: 'rounded-full' }" class="px-8"
                             icon="i-heroicons-arrow-right-20-solid" trailing>
                             Latest Project
                         </UButton>
 
-                        <UButton :to="personalInfo.cvLink" variant="outline" color="primary" size="lg"
+                        <UButton :to="personalInfo.cvLink" variant="outline" color="neutral" size="lg" class="px-14 py-3"
                             :ui="{ base: 'rounded-full' }">
                             Download CV
                         </UButton>
@@ -50,7 +50,7 @@ const { personalInfo } = usePortfolioData()
                     </div>
 
                     <div
-                        class="relative w-80 h-80 md:w-112.5 md:h-112.5 overflow-hidden shadow-2xl bg-primary-dark">
+                        class="relative w-80 h-80 md:w-112.5 md:h-112.5 overflow-hidden bg-primary-dark">
                         <img :src="personalInfo.profileImage" :alt="personalInfo.name"
                             class="w-full h-full object-cover" />
                     </div>

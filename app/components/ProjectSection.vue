@@ -16,7 +16,7 @@ const { projects } = usePortfolioData()
                     </p>
                 </div>
 
-                <UButton to="#" variant="ghost" color="neutral"
+                <UButton to="https://github.com/aditprayogaw" variant="ghost" color="neutral"
                     class="text-custom-text hover:text-white self-start md:self-auto"
                     trailing-icon="i-heroicons-arrow-right">
                     More Projects

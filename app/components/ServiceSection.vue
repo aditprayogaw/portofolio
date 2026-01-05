@@ -1,7 +1,6 @@
 <script setup lang="ts">
 const { services } = usePortfolioData()
 
-// Kita tambahkan icon manual untuk setiap service agar visual lebih menarik
 const serviceIcons = [
     'i-heroicons-code-bracket-square', // Icon untuk Frontend
     'i-heroicons-paint-brush',         // Icon untuk UI/UX

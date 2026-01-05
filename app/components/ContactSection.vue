@@ -57,7 +57,7 @@ const contactDetails = [
             </div>
 
             <div class="mt-12">
-                <UButton :to="`mailto:${contactInfo.email}`" size="xl" color="primary" variant="solid"
+                <UButton :to="`mailto:${contactInfo.email}`" size="xl" color="neutral" variant="solid"
                     :ui="{ base: 'rounded-full' }" class="px-10 py-4 text-lg shadow-lg shadow-secondary/20"
                     icon="i-heroicons-paper-airplane">
                     Say Hello

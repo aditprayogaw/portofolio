@@ -7,8 +7,8 @@ export const usePortfolioData = () => {
     role: 'Front End Developer | Designer | Photographer',
     description: 'I am a Frontend Developer with a deep passion for UI/UX design and photography. I believe that presenting an attractive design is crucial in building strong product branding.',
     subDescription: "My approach focuses on proper composition, visual details, and clean code to create professional and dynamic web experiences. Through my lens as a photographer, I've honed my eye for aesthetics.",
-    profileImage: '/images/profile.png', // Pastikan nama file di folder public sesuai
-    cvLink: '#' // Link download CV nanti bisa diisi
+    profileImage: '/images/profile.png', 
+    cvLink: 'https://www.canva.com/design/DAGscJ-W6gU/7LuO9h1PYhSC_Nv5CkMSBA/view?utm_content=DAGscJ-W6gU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he188196c74' 
   }
 
   const socialMedia = {
@@ -32,26 +32,25 @@ export const usePortfolioData = () => {
     }
   ]
 
-  // 3. Proyek (Latest Project)
+  // 3. Proyek 
   const projects = [
     {
       id: 1,
       title: 'Vintage Marketplace',
-      category: 'Laravel Project',
-      image: '/images/project-1.jpg',
-      link: '#'
+      category: 'Vue Project',
+      image: '/images/vintage-project.png',
+      link: 'https://vintage-marketplace-8i9r6s7a4-aditya-prayogas-projects-59874c81.vercel.app/'
     },
     {
       id: 2,
-      title: 'E-Commerce Dashboard', // Contoh nama proyek kedua
-      category: 'Vue Project',
-      image: '/images/project-2.jpg',
-      link: '#'
+      title: 'Marketplace Laravel Project', 
+      category: 'Laravel Project',
+      image: '/images/marketplace-laravel.png',
+      link: 'https://github.com/aditprayogaw/marketplace-exercise.git'
     },
-    // Tambahkan project lain di sini jika ada
   ]
 
-  // 4. Soft Skills (Why Hire Me) - Teks asli dari PDF
+  // 4. Soft Skills (Why Hire Me) 
   const whyHireMe = [
     {
       title: 'Workaholic',
@@ -74,8 +73,8 @@ export const usePortfolioData = () => {
   // 5. Kontak
   const contactInfo = {
     email: 'adityamade2187@gmail.com',
-    phone: '0021-xxxx-xxxx', // Silakan update dengan nomor asli
-    address: 'Permagan, Denpasar Selatan'
+    phone: '0821-4414-xxxx',
+    address: 'Pemogan, Denpasar Selatan'
   }
 
   return {

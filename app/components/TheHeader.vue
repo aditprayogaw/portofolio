@@ -15,7 +15,7 @@
 
         <UButton 
           to="#contact" 
-          color="primary" 
+          color="neutral" 
           variant="solid" 
           size="md"
           :ui="{ base: 'rounded-full' }"
